@@ -8,3 +8,6 @@ class Kid include Dance
     @name = name 
   end   
 end   
+class Kid
+  extend MetaDancing
+end
